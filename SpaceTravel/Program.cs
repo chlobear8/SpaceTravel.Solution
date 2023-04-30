@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using SpaceTravel.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
